@@ -1,19 +1,41 @@
 {
   "name": "eyp-firewalld",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "author": "eyp",
   "summary": "stops and masks firewalld",
   "license": "Apache-2.0",
-  "source": "",
-  "project_page": null,
-  "issues_url": null,
+  "source": "https://github.com/NTTCom-MS/eyp-firewalld",
+  "project_page": "https://github.com/NTTCom-MS/eyp-firewalld",
+  "issues_url": "https://github.com/NTTCom-MS/eyp-firewalld/issues",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">= 1.0.0"}
   ],
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
-      "operatingsystemrelease": [ "4", "5", "6", "7" ]
+      "operatingsystemrelease": [ "7" ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [ "7" ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [ "7" ]
+    },
+    {
+      "operatingsystem": "OEL",
+      "operatingsystemrelease": [ "7" ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [ "7" ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.8.0"
     }
   ]
 }
