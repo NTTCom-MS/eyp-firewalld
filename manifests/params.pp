@@ -6,7 +6,7 @@ class firewalld::params {
     {
       case $::operatingsystemrelease
       {
-        /^7.*$/:
+        /^[7-8].*$/:
         {
         }
         default: { fail('Unsupported RHEL/CentOS version!')  }
