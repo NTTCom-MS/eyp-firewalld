@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.6
+
+* Added support for RHEL8
+
 ## 0.1.5
 
 * workaround for masking service
